@@ -4,7 +4,7 @@ import plotly.express as px
 import preswald
 
 
-df = pd.read_csv("data/sample1.csv")
+df = pd.read_csv("sample1.csv")
 
 
 Filter_df = df[df["avg_rainfall"] > 2000]
